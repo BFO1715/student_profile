@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Personal Profile Form</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/images/bfou_logo.jpg" type="BFO University Logo">
+    <link rel="icon" href="assets/images/bfou_logo.jpg" type="image/jpg">
 </head>
 <body>
     <header>
@@ -16,7 +16,7 @@
     </header>
     <div class="form-container">
         <h2>Student Personal Profile Form</h2>
-        <form action="#" method="post">
+        <form id="profileForm" action="#" method="post">
             <div class="form-group">
                 <label for="studentId">Student ID:</label>
                 <input type="text" id="studentId" name="studentId" required>
@@ -58,12 +58,13 @@
                 <input type="number" id="admissionYear" name="admissionYear" required>
             </div>
             <div class="form-group">
-                <button type="submit">Submit</button>
+                <button type="button" onclick="saveFile()">Submit</button>
             </div>
         </form>
     </div>
     <footer>
         BFO University, Nowhere Avenue, Beyond, XY12 3XY
     </footer>
+    <script src="assets/js/saveFile.js"></script>
 </body>
 </html>
