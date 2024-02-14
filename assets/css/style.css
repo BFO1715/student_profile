@@ -1,6 +1,7 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #add8e6; /* Light blue background */
+    background-color: #add8e6; 
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,8 +9,9 @@ body {
     min-height: 100vh;
 }
 
+/* Header Section */
 header {
-    background-color: #d3d3d3; /* Light grey background */
+    background-color: #d3d3d3; 
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -28,16 +30,17 @@ header {
 }
 
 .header-image img {
-    max-height: 50px; /* Adjusts the image size, ensuring it is smaller */
-    width: auto; /* Keeps the aspect ratio intact */
-    margin-left: auto; /* Pushes the image to the right */
+    max-height: 50px; 
+    width: auto; 
+    margin-left: auto; 
 }
 
+/* Form Section */
 .form-container {
     flex-grow: 1;
     background-color: #ffffff;
     padding: 20px;
-    margin: 20px auto; /* Centered horizontally */
+    margin: 20px auto; 
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     width: calc(100% - 40px);
@@ -77,8 +80,9 @@ header {
     background-color: #0056b3;
 }
 
+/* Footer Section */
 footer {
-    background-color: #d3d3d3; /* Light grey background */
+    background-color: #d3d3d3; 
     padding: 10px 20px;
     text-align: center;
 }
